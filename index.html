@@ -2,112 +2,246 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Panda E-commerce Website</title>
-    <!-- custom css file -->
-    <link type="text/css" rel="stylesheet" href="css/style.css">
-    <!-- bootstrap external css file -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
-    <!-- Favicon -->
-    <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Panda E-commerce Website</title>
+  <!-- bootstrap external css file -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+  <!-- custom css file -->
+  <link type="text/css" rel="stylesheet" href="css/style.css">
+  <!-- Favicon -->
+  <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
 </head>
 
 <body>
-    <div class="container">
-        <nav class="navbar navbar-expand-lg bg-success bg-opacity-10">
-            <div class="container-fluid">
-              <a class="navbar-brand" href="#">
-                <img src="images/logo.png" alt="logo">
-              </a>
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav">
-                  <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#">Home</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">Shoes</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">Backpack</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link">Contact Us</a>
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </nav>
-    </div>
+  <div class="container">
+    <nav class="navbar navbar-expand-lg bg-light">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+          <img src="images/logo.png" alt="logo">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#shoes">Shoes</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#backpack">Backpack</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact us">Contact Us</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </div>
 
-    <div class="container">
-        <div id="carouselExampleControls" class="carousel slide bg-lightpink" data-bs-ride="carousel">
-            <div class="carousel-inner">
-              <div class="carousel-item active">
-                <div class="row align-items-center">
-                    <div class="col-md-7">
-                        <h1>Mi LED TV 4A PRO 32</h1>
-                        <p>This is the best tv in the world for people who just want to waste time in front of tv.</p>
-                        <h1 class="price">$1200</h1>
-                        <button class="buy-now-btn">Buy Now</button>
-                    </div>
-                    <div class="col-md-5">
-                        <img src="images/banner-images/tv.png" class="d-block w-100" alt="...">
-                    </div>
-                </div>
-              </div>
-              <div class="carousel-item">
-                <div class="row align-items-center">
-                    <div class="col-md-7">
-                        <h1>Headphones Top Collection</h1>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum maxime officiis unde non, fuga adipisci optio!</p>
-                        <h1 class="price">$420</h1>
-                        <button class="buy-now-btn">Buy Now</button>
-                    </div>
-                    <div class="col-md-5">
-                        <img src="images/banner-images/headphone.png" class="d-block w-100" alt="...">
-                    </div>
-                </div>
-              </div>
-              <div class="carousel-item">
-                <div class="row align-items-center">
-                    <div class="col-md-7">
-                        <h1>X-Box for you living room</h1>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum maxime officiis unde non, fuga adipisci optio!</p>
-                        <h1 class="price">$600</h1>
-                        <button class="buy-now-btn">Buy Now</button>
-                    </div>
-                    <div class="col-md-5">
-                        <img src="images/banner-images/xbox.png" class="d-block w-100" alt="...">
-                    </div>
-                </div>
-              </div>
+  <div class="container">
+    <div id="carouselExampleControls" class="carousel slide bg-lightpink" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <div class="row align-items-center">
+            <div class="col-md-7">
+              <h1>Mi LED TV 4A PRO 32</h1>
+              <p>This is the best tv in the world for people who just want to waste time in front of tv.</p>
+              <h1 class="price">$1200</h1>
+              <button class="buy-now-btn">Buy Now</button>
             </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
-              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
-              <span class="carousel-control-next-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Next</span>
-            </button>
+            <div class="col-md-5">
+              <img src="images/banner-images/tv.png" class="d-block w-100" alt="...">
+            </div>
           </div>
+        </div>
+        <div class="carousel-item">
+          <div class="row align-items-center">
+            <div class="col-md-7">
+              <h1>Headphones Top Collection</h1>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum maxime officiis unde non, fuga adipisci
+                optio!</p>
+              <h1 class="price">$420</h1>
+              <button class="buy-now-btn">Buy Now</button>
+            </div>
+            <div class="col-md-5">
+              <img src="images/banner-images/headphone.png" class="d-block w-100" alt="...">
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="row align-items-center">
+            <div class="col-md-7">
+              <h1>X-Box for you living room</h1>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum maxime officiis unde non, fuga adipisci
+                optio!</p>
+              <h1 class="price">$600</h1>
+              <button class="buy-now-btn">Buy Now</button>
+            </div>
+            <div class="col-md-5">
+              <img src="images/banner-images/xbox.png" class="d-block w-100" alt="...">
+            </div>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+        data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+        data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
     </div>
+  </div>
 
+  <div class="container catagories">
+    <div class="row">
 
+      <div class="col-md-4">
+        <div class="d-flex justify-content-between align-items-center catagory-1">
+          <h1 class="text-white">Watch</h1>
+          <img src="images/categories/watch.png" alt="watch">
+        </div>
+      </div>
 
+      <div class="col-md-4">
+        <div class="d-flex justify-content-between align-items-center catagory-2">
+          <h1 class="text-white">Bags</h1>
+          <img src="images/categories/bag.png" alt="bag">
+        </div>
+      </div>
 
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js"
-        integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk"
-        crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js"
-        integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy"
-        crossorigin="anonymous"></script>
+      <div class="col-md-4">
+        <div class="d-flex justify-content-between align-items-center catagory-3">
+          <h1 class="text-white">Shoes</h1>
+          <img src="images/categories/shoes.png" alt="Shoes">
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <div class="container shoes" id="shoes">
+    <h2>Shoes</h2>
+    <div class="row row-cols-1 row-cols-md-3 g-4">
+
+      <div class="col">
+        <div class="card h-100">
+          <img src="images/shoes/shoe-1.png" class="card-img-top" alt="shoe-1">
+          <div class="card-body">
+            <h5 class="card-title">Supply 350</h5>
+            <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Molestiae harum id magnam?
+            </p>
+            <h5>$120</h5>
+            <button class="buy-now-btn">Buy Now >></button>
+          </div>
+        </div>
+      </div>
+
+      <div class="col">
+        <div class="card h-100">
+          <img src="images/shoes/shoe-2.png" class="card-img-top" alt="shoe-2">
+          <div class="card-body">
+            <h5 class="card-title">Nike 320</h5>
+            <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Mollitia similique
+              repudiandae porro!</p>
+            <h5>$320</h5>
+            <button class="buy-now-btn">Buy Now >></button>
+          </div>
+        </div>
+      </div>
+
+      <div class="col">
+        <div class="card h-100">
+          <img src="images/shoes/shoe-3.png" class="card-img-top" alt="shoe-3">
+          <div class="card-body">
+            <h5 class="card-title">Red Airmax</h5>
+            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. A repellat mollitia labore.
+            </p>
+            <h5>$350</h5>
+            <button class="buy-now-btn">Buy Now >></button>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <div class="container" id="backpack">
+    <h2>Backpack</h2>
+    <div class="row row-cols-1 row-cols-md-3 g-4">
+      <div class="col">
+        <div class="card h-100">
+          <img src="images/bags/bag-1.png" class="card-img-top" alt="bag-1">
+          <div class="card-body">
+            <h5 class="card-title">Red Backpack</h5>
+            <h5>$125</h5>
+            <p class="card-text">This card has supporting text below as a natural lead-in to additional content. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, qui!</p>
+          </div>
+          <div class="card-footer">
+            <button class="buy-now-btn">Buy Now >></button>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-100">
+          <img src="images/bags/bag-2.png" class="card-img-top" alt="bag-2">
+          <div class="card-body">
+            <h5 class="card-title">Blue Backpack</h5>
+            <h5>$220</h5>
+            <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+          </div>
+          <div class="card-footer">
+            <button class="buy-now-btn">Buy Now >></button>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-100">
+          <img src="images/bags/bag-3.png" class="card-img-top" alt="bag-3">
+          <div class="card-body">
+            <h5 class="card-title">Black Backpack</h5>
+            <h5>$320</h5>
+            <p class="card-text">This card has supporting text below as a natural lead-in to additional content. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officia autem nemo dicta fugit ducimus ex?</p>
+          </div>
+          <div class="card-footer">
+            <button class="buy-now-btn">Buy Now >></button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container d-flex justify-content-center align-items-center bg-lightpink" id="contact">
+    <div>
+      <h3>LET'S STAY IN TOUCH</h3>
+      <h6>Get updates on sales specials and more</h6>
+      <input class="form-control" type="text" placeholder="Enter your email">
+      <br>
+      <button class="buy-now-btn">SUBMIT</button>
+    </div>
+  </div>
+
+  <footer>
+    <small>©copyright 2022. All rights reserved by panda commerce.</small>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js"
+    integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js"
+    integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy"
+    crossorigin="anonymous"></script>
 </body>
 
 </html>

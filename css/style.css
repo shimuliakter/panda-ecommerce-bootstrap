@@ -20,3 +20,43 @@
     border-radius: 8px;
     cursor: pointer;
 }
+
+.catagory-1, .catagory-2, .catagory-3{
+    padding: 10px 30px;
+    border-radius: 10px;
+}
+.catagory-1{
+    background-image: linear-gradient(to right, orange 0%, #fdda71 100%);
+}
+.catagory-2{
+    background-image: linear-gradient(to right, #fa79ad 0%, #ff136f 100%);
+}
+.catagory-3{
+    background-image: linear-gradient(to right, #9797ff 0%, #0000ff 100%);
+}
+/* .catagories h1{
+    color: #fff;
+} */
+.catagories img{
+    width: 150px;
+}
+
+.card{
+    border: none;
+    box-shadow: 5px 5px 10px lightgray;
+}
+
+.card-footer{
+    background-color: #fff;
+    border-top: none;
+}
+
+#contact{
+    height: 300px;
+}
+#contact h6{
+    color: gray;
+}
+footer{
+    text-align: center;
+}
